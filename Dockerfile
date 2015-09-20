@@ -98,5 +98,6 @@ RUN source ~/ve27/bin/activate && \
 
 # until path settings are introduced, simply use the same path
 RUN mkdir -p /home/zas1024
+RUN mkdir -p /home/zas1024/tmp
 
 CMD ["/usr/bin/supervisord"]
